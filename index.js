@@ -4,15 +4,25 @@ const fs = require('fs');
 
 
 // TODO: Create an array of questions for user input
+// I created all the questions to construct the README
 const questions = ["What is the title of your project?", 
     "What was your motivation?", 
     "Why did you build this project?", 
     "What problem does it solve?",
     "What did you learn?",
+    "How is the application installed?",
+    "How is this application used?",
+    "What are the contribution guidlines?",
+    "What are the test instructions?",
+    "what type of lisence would you like to add?",
+    "What is your Github username?",
+    "What us your email?"
 
 ];
 
-const [one, two, three, four, five] = questions
+// I deconstructed the array to make it easier to access it's elements. 
+
+const [one, two, three, four, five, installation, usage, contribution, tests, license, github, email] = questions
 
 inquirer
     .prompt([
@@ -41,38 +51,122 @@ inquirer
             name: 'learn',
             message: five,
         },
+        {
+            type: 'input',
+            name: 'installation',
+            message: installation,
+        },
+        {
+            type: 'input',
+            name: 'usage',
+            message: usage,
+        },
+        {
+            type: 'input',
+            name: 'contribution',
+            message: contribution,
+        },
+        {
+            type: 'input',
+            name: 'tests',
+            message: tests,
+        },
+        {
+            type: 'list',
+            name: 'license',
+            message: license,
+            choices: ['MIT', 'Boost', 'Mozzilla', 'Unlisenced']
+        },
+        {
+            type: 'input',
+            name: 'github2',
+            message: github,
+        },
+        {
+            type: 'input',
+            name: 'email2',
+            message: email,
+        }
     ])
 
-    // .then((data) => {
     
-    //     fs.writeFile('README.md', JSON.stringify(data, null, '\t'), (err) =>
-    //       err ? console.log(err) : console.log('Success!')
-    //     );
-    //   });
 
+    // .then will run the function after inquirer and will have its data as its paramater. 
       .then((data) => {
     
-        fs.writeFile('README.md', `# ${data.title}
+        fs.writeFile('README.md', 
         
-        ## Motivation:
+        `# ${data.title}
 
-        ${data.motivation}
+## Description
 
-        ## The Purpose of This Project:
+### Motivation
 
-        ${data.build} ${data.solve} ${data.learn}
+${data.motivation}
+
+### Build
+
+${data.build}
+
+### Solve
+
+${data.solve}
+
+### Learn
+
+${data.learn}
+
+## Table of Contents:
+
+[1. Installation](README.md/Installation/)
+
+[2. Purpose](README.md/Purpose/)
+
+[3. License](README.md/License/)
+
+[4. Contribution](README.md/Contribution/)
+
+[5. Tests](README.md/Tests/)
+
+[6. Questions](README.md/Questions)
+        
+## Installation:
+
+${data.installation}
+
+## Usage:
+
+${data.usage}
+
+## License:
+
+${data.license}
+
+## Contribution:
+
+${data.contribution}
+
+## Tests:
+
+${data.tests}
+
+## Questions:
+
+The source code of this project can be found on my Github repository at www.github.com/${data.github2}. Feel free to contact 
+me any time regarding questions or recomendations. My email is ${data.email2}. Thank you for taking the time to review and use my app. 
+
         `, (err) =>
           err ? console.log(err) : console.log('Success!')
         );
       });
   
 
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+// // TODO: Create a function to write README file
+// function writeToFile(fileName, data) {}
 
-// TODO: Create a function to initialize app
-function init() {}
+// // TODO: Create a function to initialize app
+// function init() {}
 
-// Function call to initialize app
-init();
+// // Function call to initialize app
+// init();
 

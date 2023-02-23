@@ -1,22 +1,24 @@
-# 1
+# a
 
 ## Description
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 ### Motivation
 
-2
+a
 
 ### Build
 
-3
+a
 
 ### Solve
 
-4
+a
 
 ### Learn
 
-5
+a
 
 ## Table of Contents:
 
@@ -34,27 +36,28 @@
         
 ## Installation:
 
-6
+a
 
 ## Usage:
 
-7
+a
 
 ## License:
 
-MIT
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Contribution:
 
-8
+a
 
 ## Tests:
 
-9
+a
 
 ## Questions:
 
-The source code of this project can be found on my Github repository at www.github.com/0. Feel free to contact 
-me any time regarding questions or recomendations. My email is 1. Thank you for taking the time to review and use my app. 
+The source code of this project can be found on my Github repository at www.github.com/a. Feel free to contact 
+me any time regarding questions or recomendations. My email is a. Thank you for taking the time to review and use my app. 
 
         

@@ -24,6 +24,20 @@ const questions = ["What is the title of your project?",
 
 const [one, two, three, four, five, installation, usage, contribution, tests, license, github, email] = questions
 
+// function licenseBadge(value) {
+//     if (value === 'MIT') {
+//                 return "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
+//               } if (value === 'Boost') {
+//                 return "[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)";
+//               } if (value === 'Mozilla') {
+//                 return "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)";
+//               } if (value === 'Unlisenced') {
+//                 return "None";
+// }
+// }
+
+// licenseBadge()
+
 inquirer
     .prompt([
         {
@@ -75,7 +89,12 @@ inquirer
             type: 'list',
             name: 'license',
             message: license,
-            choices: ['MIT', 'Boost', 'Mozzilla', 'Unlisenced']
+            choices: [
+                {value: '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)', name: 'MIT'},
+                {value: '[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)', name: 'Boost'}, 
+                {value: '[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)', name: 'Mozzilla'}, 
+                {value: 'none', name: 'Unlisenced'}
+            ], 
         },
         {
             type: 'input',
@@ -89,7 +108,6 @@ inquirer
         }
     ])
 
-    
 
     // .then will run the function after inquirer and will have its data as its paramater. 
       .then((data) => {
@@ -99,6 +117,8 @@ inquirer
         `# ${data.title}
 
 ## Description
+
+${data.license}
 
 ### Motivation
 
@@ -140,6 +160,7 @@ ${data.usage}
 
 ## License:
 
+
 ${data.license}
 
 ## Contribution:
@@ -170,3 +191,13 @@ me any time regarding questions or recomendations. My email is ${data.email2}. T
 // // Function call to initialize app
 // init();
 
+
+
+
+
+
+// [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+// [![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
+
+// [![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)

@@ -22,17 +22,17 @@ a
 
 ## Table of Contents:
 
-[1. Installation](#Installation/)
+[1. Installation](#Installation)
 
-[2. Purpose](README.md/Purpose/)
+[2. Usage](#Usage)
 
-[3. License](README.md/License/)
+[3. License](#License)
 
-[4. Contribution](README.md/Contribution/)
+[4. Contribution](#Contribution)
 
-[5. Tests](README.md/Tests/)
+[5. Tests](#Tests)
 
-[6. Questions](README.md/Questions)
+[6. Questions](#Questions)
         
 ## Installation:
 

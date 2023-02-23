@@ -134,7 +134,7 @@ ${data.learn}
 
 [1. Installation](#Installation)
 
-[2. Purpose](#Purpose)
+[2. Usage](#Usage)
 
 [3. License](#License)
 

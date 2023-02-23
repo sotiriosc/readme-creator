@@ -22,7 +22,7 @@ a
 
 ## Table of Contents:
 
-[1. Installation](README.md/Installation/)
+[1. Installation](#Installation/)
 
 [2. Purpose](README.md/Purpose/)
 

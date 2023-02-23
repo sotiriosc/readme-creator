@@ -24,19 +24,7 @@ const questions = ["What is the title of your project?",
 
 const [one, two, three, four, five, installation, usage, contribution, tests, license, github, email] = questions
 
-// function licenseBadge(value) {
-//     if (value === 'MIT') {
-//                 return "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
-//               } if (value === 'Boost') {
-//                 return "[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)";
-//               } if (value === 'Mozilla') {
-//                 return "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)";
-//               } if (value === 'Unlisenced') {
-//                 return "None";
-// }
-// }
-
-// licenseBadge()
+// I used the inquirer app to create prompts to attain the required information to construct readme
 
 inquirer
     .prompt([
@@ -86,6 +74,9 @@ inquirer
             message: tests,
         },
         {
+            // I Discovered I could use the filter function to set values for the the prompts, 
+            // So I can print badges based on the users selection
+
             type: 'list',
             name: 'license',
             message: license,
@@ -112,6 +103,9 @@ inquirer
     // .then will run the function after inquirer and will have its data as its paramater. 
       .then((data) => {
     
+        // Here I utilize the fs npm to write the file.
+        // I also utilize template literals to create a README template
+        // Then use the users prompts to complete it
         fs.writeFile('README.md', 
         
         `# ${data.title}
@@ -182,22 +176,3 @@ me any time regarding questions or recomendations. My email is ${data.email2}. T
       });
   
 
-// // TODO: Create a function to write README file
-// function writeToFile(fileName, data) {}
-
-// // TODO: Create a function to initialize app
-// function init() {}
-
-// // Function call to initialize app
-// init();
-
-
-
-
-
-
-// [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-// [![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
-
-// [![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)

@@ -106,7 +106,7 @@ inquirer
         // Here I utilize the fs npm to write the file.
         // I also utilize template literals to create a README template
         // Then use the users prompts to complete it
-        fs.writeFile('README.md', 
+        fs.writeFile('assets/README.md', 
         
         `# ${data.title}
 

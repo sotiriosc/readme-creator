@@ -1,24 +1,24 @@
-# a
+# README Creator
 
 ## Description
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)
 
 ### Motivation
 
-a
+To create an application that creates README.
 
 ### Build
 
-a
+To make developers lives easier.
 
 ### Solve
 
-a
+It solves the tedious time of coding and creating a README.
 
 ### Learn
 
-a
+I improved my Javascript code. I learned and developed new coding skills to execute my functions more efficiently. 
 
 ## Table of Contents:
 
@@ -36,28 +36,28 @@ a
         
 ## Installation:
 
-a
+The application is installed by obtaining the source code on my github of this NPM.
 
 ## Usage:
 
-a
+This application is used with the command line to gather basic information regarding the application that was developed. To construct a professional README.md.
 
 ## License:
 
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)
 
 ## Contribution:
 
-a
+If you find a mistake or would like to improve this application feel free to do so. 
 
 ## Tests:
 
-a
+Run the application on command line.
 
 ## Questions:
 
-The source code of this project can be found on my Github repository at www.github.com/a. Feel free to contact 
-me any time regarding questions or recomendations. My email is a. Thank you for taking the time to review and use my app. 
+The source code of this project can be found on my Github repository at www.github.com/sotiriosc. Feel free to contact 
+me any time regarding questions or recomendations. My email is chortogiannoss@gmail.com. Thank you for taking the time to review and use my app. 
 
         

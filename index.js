@@ -174,5 +174,3 @@ me any time regarding questions or recomendations. My email is ${data.email2}. T
           err ? console.log(err) : console.log('Success!')
         );
       });
-  
-

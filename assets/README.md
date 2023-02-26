@@ -18,7 +18,7 @@ It solves the tedious time of coding and creating a README.
 
 ### Learn
 
-I improved my Javascript code. I learned and developed new coding skills to execute my functions more efficiently. 
+I improved my Javascript code. I learned and developed new coding skills to execute my functions more efficiently.
 
 ## Table of Contents:
 
@@ -49,7 +49,7 @@ This application is used with the command line to gather basic information regar
 
 ## Contribution:
 
-If you find a mistake or would like to improve this application feel free to do so. 
+If you find a mistake or would like to improve this application feel free to do so.
 
 ## Tests:
 
@@ -58,6 +58,6 @@ Run the application on command line.
 ## Questions:
 
 The source code of this project can be found on my Github repository at www.github.com/sotiriosc. Feel free to contact 
-me any time regarding questions or recomendations. My email is chortogiannoss@gmail.com. Thank you for taking the time to review and use my app. 
+me any time regarding questions or recomendations. My email is chortogiannos@gmail.com. Thank you for taking the time to review and use my app. 
 
         

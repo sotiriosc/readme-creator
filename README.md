@@ -2,8 +2,6 @@
 
 ## Description
 
-[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)
-
 ### Motivation
 
 To create an application that creates README. (THIS READ ME WAS CREATED USING THIS APP)

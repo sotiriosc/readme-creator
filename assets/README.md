@@ -2,6 +2,8 @@
 
 ## Description
 
+[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)
+
 ### Motivation
 
 To create an application that creates README.
@@ -34,7 +36,7 @@ I improved my Javascript code. I learned and developed new coding skills to exec
         
 ## Installation:
 
-The application is installed by obtaining the source code on github.
+The application is installed by obtaining the source code on my github of this NPM.
 
 ## Usage:
 
@@ -43,7 +45,7 @@ This application is used with the command line to gather basic information regar
 ## License:
 
 
-None!
+[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)
 
 ## Contribution:
 
@@ -56,6 +58,6 @@ Run the application on command line.
 ## Questions:
 
 The source code of this project can be found on my Github repository at www.github.com/sotiriosc. Feel free to contact 
-me any time regarding questions or recomendations. My email is chortogiannoss@gmail.com. Thank you for taking the time to review and use my app. 
+me any time regarding questions or recomendations. My email is chortogiannos@gmail.com. Thank you for taking the time to review and use my app. 
 
         

@@ -1,24 +1,24 @@
-# README Creator
+# personalTextEditor-PWA
 
 ## Description
 
-[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ### Motivation
 
-To create an application that creates README.
+To learn the skills required to create an application that can be installed on desktops and mobile devices.
 
 ### Build
 
-To make developers lives easier.
+I built this project to provide myself and others an application that can store code for developers. 
 
 ### Solve
 
-It solves the tedious time of coding and creating a README.
+It allows its users to record great idea's at any time allowing developers to keep track of the code they think of throughout their day. 
 
 ### Learn
 
-I improved my Javascript code. I learned and developed new coding skills to execute my functions more efficiently.
+I learned how to utilize a lot of technology to construct this project. I Used concurrently to run multiple node operations with one command. Mini css , workbox, webpack and babel to create my dist files to serve users. As well as  express to  build my api.
 
 ## Table of Contents:
 
@@ -36,28 +36,28 @@ I improved my Javascript code. I learned and developed new coding skills to exec
         
 ## Installation:
 
-The application is installed by obtaining the source code on my github of this NPM.
+To install this application you must obtain the source code from my repo and run the application in node or host it on heroku. 
 
 ## Usage:
 
-This application is used with the command line to gather basic information regarding the application that was developed. To construct a professional README.md.
+The appication can be reached at a deployed webstie or downloaded onto any device.
 
 ## License:
 
 
-[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Contribution:
 
-If you find a mistake or would like to improve this application feel free to do so.
+Anyone can contribute!
 
 ## Tests:
 
-Run the application on command line.
+none
 
 ## Questions:
 
 The source code of this project can be found on my Github repository at www.github.com/sotiriosc. Feel free to contact 
-me any time regarding questions or recomendations. My email is chortogiannos@gmail.com. Thank you for taking the time to review and use my app. 
+me any time regarding questions or recomendations. My email is chortogiannoss@gmail.com. Thank you for taking the time to review and use my app. 
 
         
